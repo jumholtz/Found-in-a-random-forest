@@ -32,7 +32,7 @@ I used a decision tree and a random forest model to solve the classification pro
 The pruned random forest model had an average F1 score and when wrong, the model leaned toward false positive over false negative, which in the case of fraud is the more desirable outcome. When fraud occurs, it requires significant resources to recover the losses; therefore, it is better to cry wolf than miss the wolf entirely. It is recommended that the model be used in a cursory fashion to quickly flag transactions actions for further review. The role of the model is not to serve as the jury, judge, and executioner, but rather, serve as a tool for investigators to more efficiently review transactions and be the first line of defense against fraud.
 
 # Repository Navigation
-In the GitHub repository, you will be able to find the [Jupyter Notebook](notebook.ipynb) and the [(Presentation)] on the main page. The data set is over 100mb and will need to be downloaded from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?datasetId=310&sortBy=voteCount). The proposal folder contains the proposal for this project as well as some collateral images.
+In the GitHub repository, you will be able to find the [Jupyter Notebook](notebook.ipynb) and the [Presentation](Capstone Presentation - Found in a Random Forest.pptx) on the main page. The data set is over 100mb and will need to be downloaded from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?datasetId=310&sortBy=voteCount). The proposal folder contains the proposal for this project as well as some collateral images.
 
 To reproduce the findings:
 1. Utilize a transactional data set classified between fraudulent and legitimate.
